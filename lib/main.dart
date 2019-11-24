@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       builder: (context) => CounterState(),
       child: MaterialApp(
-        title: 'Flutter State Management',
+        title: 'Flutter State Management - Provider Ex.1',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MyHomePage(title: 'Flutter State Management'),
+        home: MyHomePage(title: 'Flutter State Management - Provider Ex.1'),
       ),
     );
   }
